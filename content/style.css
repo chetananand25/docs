@@ -1,0 +1,74 @@
+/* Reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-top: 1rem;
+}
+
+nav ul li {
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Style main content */
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section {
+	flex: 1 1 30%;
+	margin-bottom: 2rem;
+}
+
+section ul {
+	list-style: none;
+	margin-left: 1rem;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #555;
+}
+
+/* Style footer */
+footer {
+	background-color: #ddd;
+	padding: 1rem;
+	text-align: center;
+}
